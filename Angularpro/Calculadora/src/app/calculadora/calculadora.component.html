@@ -1,0 +1,13 @@
+<div>
+    <h1>Calculadora</h1>
+    <input type="text" [(ngModel)]="valor1">
+    <select [(ngModel)]="operacion">
+      <option value="+">Suma</option>
+      <option value="-">Resta</option>
+      <option value="*">Multiplicación</option>
+      <option value="/">División</option>
+    </select>
+    <input type="text" [(ngModel)]="valor2">
+    <button (click)="calcular()">Calcular</button>
+    <h2>Resultado: {{resultado}}</h2>
+  </div>
