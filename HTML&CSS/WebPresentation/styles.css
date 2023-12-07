@@ -1,0 +1,39 @@
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.center-container a i.bi.bi-linkedin {
+    font-size: 30px;
+}
+.center-container a i.bi.bi-github {
+    font-size: 30px;
+}
+.center-container a i.fa-brands.fa-upwork{
+    font-size: 30px;
+}
+section {
+    padding: 60px 0;
+}
+
+footer {
+    margin-top: auto;
+}
+
+
+.container-logo {
+    max-width: 100px; 
+    margin: 0 auto; 
+    padding: 10px; 
+}
+
+.logo-container {
+    top: 5px; 
+    left: 5px; 
+}
+
+.logo-container img {
+    width: 70px; 
+    height: auto; 
+}

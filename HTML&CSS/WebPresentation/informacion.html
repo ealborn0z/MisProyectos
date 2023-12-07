@@ -1,0 +1,134 @@
+<!--ealborn0z-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="language-selector" class="bg-dark text-white">
+        <label for="language" id="idioma">Selecciona el Idioma:</label>
+        <select id="language" onchange="cambiarIdioma()">
+            <option value="es" id="idiomaLabel1">Español</option>
+            <option value="en" id="idiomaLabel2">Ingles</option>
+        </select>
+    </div> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-logo">
+            <div class="logo-container">
+                <img src="/logo/logo-white.png" alt="Tu Logo">
+            </div>
+        </div>
+        <div class="container">
+            <a class="navbar-brand" href="/index.html" id="inicioLabel">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Acerca de mi" id="acercaLabel">Acerca De Mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Formacion" id="educacionLabel">Educacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Capacitaciones" id="capacitacionesLabel">Capacitaciones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="bg-info text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-7" id="AcercaLabel">Acerca De Mi</h1>
+        </div>
+    </header>
+    <section id="Acerca de mi" class="py-5">
+        <div class="container">
+            <p id="AcercaLabel1">Mi nombre es Enmanuel Albornoz, soy venezolano y tengo 30 años. Inicialmente, me formé como ingeniero en mantenimiento mecánico, pero mi trayectoria ha evolucionado hacia el apasionante mundo de la programación web. En la actualidad, me desempeño como programador con habilidades tanto en el Front-end como en el Back-end.
+                Considero mi nivel de conocimiento en el ámbito de la programación como junior, pero siempre estoy inmerso en un constante proceso de aprendizaje. Me encanta reforzar lo que ya he aprendido y explorar nuevas tecnologías. Mi capacidad para asimilar nuevos conocimientos de manera rápida y efectiva es una de mis fortalezas.
+                Mi experiencia laboral abarca aproximadamente seis años en el sector petrolero, donde adquirí habilidades valiosas. Hace cerca de un año, decidí adentrarme en el fascinante mundo del desarrollo web, y actualmente estoy en búsqueda activa de mi primer empleo como programador.
+                En el ámbito personal, mi pasión por la música y el interés por los deportes, especialmente las disciplinas como la MMA y Muay Thai, complementan mi perfil multidimensional.
+                Estoy emocionado por la oportunidad de contribuir con mi experiencia y aprender más en el fascinante mundo de la programación!
+            </p>
+    
+        </div>
+    </section>
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-7" id="FormacionLabel">Formacion Academica</h1>
+        </div>
+    </header>
+    <section id="Formacion" class="py-5">
+        <div class="container">
+            <h2 class="text-center" id="UniversidadLabel">Universidad</h2>
+            <ul>
+                <li id="UniversidadLabel1">Politecnico Santiago Mariño - Politecnic Santiago Mariño</li>
+            </ul>
+            <h2 class="text-center" id="localidadLabel">Localidad / Location</h2>
+            <ul>
+                <li id="localidadLabel1">Cabimas, Edo Zulia, Venezuela</li>
+            </ul>
+            <h2 class="text-center" id="tituloLabel">Titulo / Degree</h2>
+            <ul>
+                <li id="carreraLabel">Ingeniero En Mantenimiento Mecanico / Mechanical Maintenance Engineer.</li>
+            </ul>
+            <h2 class="text-center" id="añoLabel">Año de Graduacion / Year of Degree</h2>
+            <ul>
+                <li>06/2011 - 08/2016</li>
+            </ul>
+            <hr>
+            <h2 class="text-center" id="colegioLabel">Colegio / Collegue</h2>
+            <ul>
+                <li>Lic. Julia Añez Gabaldon</li>
+            </ul>
+            <h2 class="text-center" id="LocalidadLabel">Localidad / Location</h2>
+            <ul>
+                <li id="LocalidadLabel1">Cabimas, Edo-Zulia, Venezuela</li>
+            </ul>
+            <h2 class="text-center" id="TituloLabel">Titulo / Degree</h2>
+            <ul>
+                <li id="LocalidadLabel">Bachiller En Ciencias / Bachelor of Science</li>
+            </ul>
+            <h2 class="text-center" id="CarreraLabel">Año de Graduacion / Year of Degree</h2>
+            <ul>
+                <li>07/2006 - 07/2011</li>
+            </ul>
+        </div>
+    </section>
+
+    
+
+    <header class="bg-info text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-7" id="capacitacionLabel">Capacitaciones </h1>
+        </div>
+    </header>
+    <section id="Capacitaciones" class="py-5">
+        <div class="container">
+            <p>PHP (30/03/2023) <br> <i>España Openbootcamp – En Línea</i></p>
+            <p>GIT (08/03/2023) <br> <i>España Openbootcamp – Online</i></p>
+            <P>Angular (14/02/2023) <br> <i>España Openbootcamp – Online</i> </P>
+            <p>JavaScript (11/05/2022) <br> <i>España Openbootcamp – Online</i> </p>
+            <p>HTML&CSS (11/13/2022) <br> <i>España Openbootcamp – Online</i></p>
+            <p>Java (11/21/2022) <br> <i>España Openbootcamp – Online</i></p>
+            <p>Python (11/30/2022) <br><i>España Openbootcamp – Online</i></p>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 EA</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/script.js"></script>
+
+</body>
+</html>
