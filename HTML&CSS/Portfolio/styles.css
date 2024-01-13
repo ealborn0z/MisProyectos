@@ -1,0 +1,271 @@
+body {
+    font-family: cursive, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    background-color: #f5f5f5;
+ 
+    
+}
+section.Info{
+    padding-top: 100px;
+}
+.navbar {
+    font-family: cursive;
+
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+div.container-text {
+    padding-left: 20px;
+}
+.name {
+    font-family: cursive;
+    font-size: 20px;
+
+}
+.title {
+    color: #1a1b1f;
+    font-family: cursive;
+    font-size: 16px;
+    opacity: 60%;
+}
+.description{
+    color: #1a1b1f;
+    font-size: 64px;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bento-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+}
+.portfolio-item {
+    width: 250px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    border-radius: 20px 20px 0 0;
+}
+.portfolio-item .item-info {
+    padding: 20px;
+}
+.portfolio-item h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+.portfolio-item p {
+    margin: 10px 0 0;
+    color: #777;
+    font-size: 1rem;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+div.item-info{
+    text-align: center;
+    
+}
+.Pdescription {
+    margin-top: 10px;
+}
+.text-light {
+    color: #888;
+}
+
+a.project-name{
+    font-size: 20px;
+    font-family: cursive;
+    color: #1a1b1f;
+    
+}
+
+div.text{
+    color: #1a1b1f;
+    font-size: 16px;
+    font-family: cursive;
+}
+div#node1 {
+    width: 100%;
+    height: 30%;
+}
+div#node2 {
+    width: 50%;
+    height: 50%;
+}
+div#node3 {
+    width: 40%;
+    height: 40%;
+}
+div#node4 {
+    width: 35%;
+    height: 40%;
+}
+div#node5 {
+    width: 50%;
+    height: 40%;
+}
+div#node6 {
+    width: 35%;
+    height: 20%;
+}
+div#node7 {
+    width: 40%;
+    height: 30%;
+}
+
+
+.Languages {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 100px; 
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    animation: moveIcons 15s linear infinite; 
+}
+
+.icons > div {
+    text-align: center;
+}
+
+@keyframes moveIcons {
+    0% {
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: translateX(calc(180% - 20px)); 
+    }
+}
+
+div.Python{
+    font-size: 40px;
+    color: #b65611;
+    padding: 20px;
+}
+
+div.Html{
+    font-size: 40px;
+    color: red;
+    padding: 20px;
+}
+
+div.CSS{
+    font-size: 40px;
+  color: blue;
+  padding: 20px;
+}
+
+div.Java{
+  font-size: 40px;
+  color: rgb(255, 85, 0);
+  padding: 20px;
+}
+
+
+div.JS{
+  font-size: 40px;
+  color: rgb(221, 221, 9);
+  padding: 20px;
+}
+
+div.Angular{
+ font-size: 40px;
+  color: rgb(255, 85, 0);
+  padding: 20px;
+}
+
+div.MySql{
+    font-size: 40px;
+  color: rgb(156, 185, 9);
+  padding: 20px;
+}
+section.experience {
+    padding: 40px;
+    h2 {
+        font-size:36px ;
+    }
+    p{
+        font-size: 16px;
+        opacity: 60%;
+    }
+}
+.experience {
+    display: flex;
+    width: 100%;
+}
+
+.sideA, .sideB {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+div.iconsB{
+    display: flex;
+    place-content: space-between
+}
+div.Linkedin {
+    font-size: 60px;
+    padding: 20px;
+    
+    
+}
+div.Github{
+  font-size: 60px;
+  padding: 20px;
+  
+}
+div.Upwork{
+    font-size: 60px;
+    padding: 20px;
+    
+   
+}
+.highlight {
+    background-color: #f8d7da;
+}
+a.Linkedin{
+    color: blue;
+}
+a.Github{
+    color: #1a1b1f;
+}
+a.Upwork{
+    color: green;
+}
+div.sideB{
+    i:hover {
+        transition: transform 0.3s ease-in-out;
+        overflow: hidden;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #f5f5f5;
+
+      }
+}
